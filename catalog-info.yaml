@@ -1,0 +1,19 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: qalthos.test_6
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: test-rhaap-1/qalthos-test-6
+  links:
+    - url: https://devspaces.apps.ansible-rhdh-dev.testing.ansible.com/#https://github.com/test-rhaap-1/qalthos-test-6
+      title: Open Ansible project in OpenShift Dev Spaces
+      icon: web
+spec:
+  type: playbook-project
+  lifecycle: production
+  owner: qalthos
